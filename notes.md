@@ -101,7 +101,7 @@ For Sentiment Analysis we need to convert text into vector/numbers and there are
 
 One Hot Encoding is a technique used in NLP to represent words or categories as numerical vectors containing 0s and 1s, so that machine learning models can process them.
 
-![OHE](WhatsApp%20Image%202026-09-05%20at%208.22.06%20PM-1.jpeg)
+![OHE](./OHE.jpeg)
 
 ## Advantges:
 
