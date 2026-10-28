@@ -118,7 +118,7 @@ One Hot Encoding is a technique used in NLP to represent words or categories as 
 
 Bag of Words is a technique used in NLP to represent text as numerical vectors based on the frequency of words in the text.
 
-![BOW](./NLP_Concepts_and_Notes/image.png)
+![BOW](./BOW.png)
 
 ## Advantges:
 
@@ -144,7 +144,7 @@ TF-IDF = Term Frequency × Inverse Document Frequency
 TF (Term Frequency) → Word document mein kitni baar aaya.
 IDF (Inverse Document Frequency) → Word kitne documents mein common hai.
 
-![TF_IDF](./NLP_Concepts_and_Notes/TF_IDF.png)
+![TF_IDF](./TF_IDF.png)
 
 ## Advantges:
 
@@ -162,7 +162,7 @@ IDF (Inverse Document Frequency) → Word kitne documents mein common hai.
 
 A numerical vector representation of a word that captures its meaning and relationships with other words.
 
-![WordEmbeddings](./NLP_Concepts_and_Notes/WordEmbeddings.png)
+![WordEmbeddings](./WordEmbeddings.png)
 
 
 
@@ -194,7 +194,7 @@ Similarity low → distance high
                        ↓
        Find similar/related words
 
-![Word2Vec](./NLP_Concepts_and_Notes/Word2Vec.png)
+![Word2Vec](./Word2Vec.png)
 
 ## There are two type of Word2Vec:
 
@@ -218,7 +218,7 @@ cat, is, on, the
 and predict:
 sitting
 
-![CBOW](./NLP_Concepts_and_Notes/CBOW.png)
+![CBOW](./CBOW.png)
 
 ### 1. Context Window:
 
@@ -294,7 +294,7 @@ Prediction → Error → Backpropagation → Weight Update
 
 ## 2) Skipgram:
 
-![Skipgram](./NLP_Concepts_and_Notes/Skipgram.png)
+![Skipgram](./Skipgram.png)
 
 # AvgWord2Vec:
 
@@ -310,7 +310,7 @@ Average
 
 Sentence Vector
 
-![AvgWord2Vec](./NLP_Concepts_and_Notes/AvgWord2Vec.png)
+![AvgWord2Vec](./AvgWord2Vec.png)
 
 AvgWord2Vec is a technique for converting a sentence or document into a fixed-size vector. It takes the Word2Vec embedding of each word and averages them to create a single sentence vector. For example, if each word has a 300-dimensional embedding, the final sentence representation will also have 300 dimensions, regardless of the sentence length.
 
